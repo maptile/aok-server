@@ -13,7 +13,6 @@ module.exports = {
         app.use(route.get(path, action));
     },
     addStatic: function(path, staticFilePath){
-        console.log(__dirname);
         if(typeof staticFilePath === 'undefined'){
             staticFilePath = path;
             path = undefined;
