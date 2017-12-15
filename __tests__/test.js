@@ -1,11 +1,14 @@
-const server = require('../index');
+const Server = require('../index');
 
-server.add('/test', async (ctx) => {
-    ctx.body = 'test is ok';
+const server = new Server();
+server.route.get('/test', async (ctx) => {
+    ctx.body = 'get test ok';
 });
 
-server.addStatic('/static', './');
+server.route.post('/test', async(ctx) => {
+    ctx.body = 'post to test ok';
+});
 
-server.add404('oh noooo');
+server.route.static('/static', './');
 
 server.listen(3000);
