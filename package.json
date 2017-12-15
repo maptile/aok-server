@@ -1,0 +1,27 @@
+{
+  "name": "aok-server",
+  "version": "1.0.0",
+  "description": "A server that wrap koa related middleware together.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:juicyeye/aok-server.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "juicyeye",
+  "license": "Copyright 2017-2018 juicyeye. All rights reserved.",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-mount": "^3.0.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.2.1"
+  }
+}
