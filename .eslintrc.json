@@ -20,11 +20,16 @@
             "named": "always",
             "asyncArrow": "always"
         }],
+        "indent": ["error", 4],
         "require-jsdoc": ["off"],
         "no-var": ["warn"],
         "spaced-comment": ["warn"],
-        "max-len": ["error", {
-            "code": 120
+        "max-len": ["warn", {
+            "code": 120,
+            "ignoreComments": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true,
+            "ignoreRegExpLiterals": true
         }],
         "object-curly-spacing": ["off"],
         "no-invalid-this": ["off"],
@@ -35,10 +40,12 @@
         "block-spacing": ["off"],
         "prefer-arrow-callback": "warn",
         "prefer-const": "warn",
+        "quotes": ["warn", "single"],
         "no-const-assign": "error",
         "no-extra-bind": "error",
         "no-undef": "error",
-        "no-console": "off"
+        "no-console": "off",
+        "no-tabs": "error"
     },
     "globals": {
     }
