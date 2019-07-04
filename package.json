@@ -5,23 +5,23 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:juicyeye/aok-server.git"
+    "url": "git@github.com:maptile/aok-server.git"
   },
   "scripts": {
     "test": "jest"
   },
-  "author": "juicyeye",
-  "license": "Copyright 2017-2018 juicyeye. All rights reserved.",
+  "author": "maptile",
+  "license": "MIT",
   "dependencies": {
-    "koa": "^2.4.1",
-    "koa-bodyparser": "^4.2.0",
-    "koa-mount": "^3.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-mount": "^4.0.0",
     "koa-route": "^3.2.0",
-    "koa-static": "^4.0.2"
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-config-google": "^0.9.1",
-    "jest": "^21.2.1"
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "jest": "^24.8.0"
   }
 }
